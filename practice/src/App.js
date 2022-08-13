@@ -1,9 +1,10 @@
 import React from 'react';
+import { LoginPage } from './components/login';
 
 export const App =() => {
   return (
     <div>
-         <h1>React App</h1>
+         <LoginPage/>
          
     </div>
   );
