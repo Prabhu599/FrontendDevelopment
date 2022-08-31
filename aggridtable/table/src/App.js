@@ -1,12 +1,12 @@
   import React from "react";
-  import { SignUp } from "./components/signin_signup";
+  import {MaterialUi}  from "./componentsui/materialuipractice";
 
 
 export const App = () => {
   return (
     
     <div >
-      <SignUp/>
+      <MaterialUi/>
     </div>
   )
 }
