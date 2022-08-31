@@ -1,12 +1,12 @@
   import React from "react";
-  import { BasicTable } from "./components/datatable";
+  import { SignUp } from "./components/signin_signup";
 
 
 export const App = () => {
   return (
     
     <div >
-      <BasicTable/>
+      <SignUp/>
     </div>
   )
 }
