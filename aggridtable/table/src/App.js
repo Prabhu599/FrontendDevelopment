@@ -1,13 +1,20 @@
   import React from "react";
-  import {MaterialUi}  from "./componentsui/materialuipractice";
+  import { LayoutofProjects }  from "./LeftMainLayout/LayoutofProjects";
+  import { MainPanel } from "./LeftMainLayout/Mainpanel";
+  import { Grid } from "@material-ui/core";
 
 
 export const App = () => {
   return (
-    
-    <div >
-      <MaterialUi/>
-    </div>
+    <Grid>
+    <Grid >
+      <LayoutofProjects/>
+    </Grid>
+    <Grid >
+    <MainPanel/>
+  </Grid>
+  </Grid>
+
   )
 }
 
